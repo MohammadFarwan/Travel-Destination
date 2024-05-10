@@ -1,0 +1,34 @@
+.tour-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.tour-image {
+    width: 800px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.tour-separator {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 30px;
+}
+
+.tour-name {
+    font-size: 34px;
+    /* Increase font size */
+    font-weight: bold;
+    /* Add bold font weight */
+    color: #333;
+    /* Darken text color */
+    margin-top: 10px;
+    /* Reduce space above tour name */
+}
