@@ -1,15 +1,12 @@
 import data from './../../data/db.json';
 import './Tours.css';
+import Tour from './tour/Tour';
 function Tours() {
   console.log(data);
   return (
     <>
       {data.map(city => (
-        <div key={city.id} className="tour-container">
-          <h3 className="tour-name">{city.name}</h3>
-          <img src={city.image} alt={city.name} className="tour-image" />
-          <div className="tour-separator"></div>
-        </div>
+        <Tour id={city.id} name={city.name} image={city.image} />
       ))}
     </>
   );
